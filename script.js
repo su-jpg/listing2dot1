@@ -7,3 +7,7 @@ countClick.addEventListener("click",() => {
 	p.innerHTML ="count = " +count;
 
 })
+
+for(const prop in document){
+	document.write("prop :", prop, "<br>")
+}
